@@ -1,3 +1,0 @@
-# YUY2, YUYV422
-
-# UYVY, UYVY422

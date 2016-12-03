@@ -5,6 +5,8 @@ https://ffmpeg.org/ffmpeg.html
 # List of all suppported formats
 ffmpeg -pix_fmts
 
+# Convert from jpg to grayscale
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt gray girl_704x472x472_gray.yuv
 
 # Convert from jpg to yuv420p (I420)
 ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt yuv420p girl_704x472x472_yuv420p.yuv
@@ -15,10 +17,7 @@ ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt yuv422p girl_704x472x472_yuv4
 # Convert from jpg to yuv444p (YUV444)
 ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt yuv444p girl_704x472x472_yuv444p.yuv
 
-# Convert from jpg to yvyu422 (YUY2)
-ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt yuyv422 girl_704x472x472_yuyv422.yuv
-
-# Convert from jpg to yuyv422 (YUYV422)
+# Convert from jpg to yuyv422 (YUY2)
 ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt yuyv422 girl_704x472x472_yuyv422.yuv
 
 # Convert from jpg to uyvy422 (UYVY)
@@ -37,7 +36,10 @@ ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt rgba girl_704x472x472_rgba.rg
 ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt argb girl_704x472x472_argb.rgb
 
 # Convert from jpg to bgr
-ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgr8 girl_704x472x472_bgr.rgb
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgr24 girl_704x472x472_bgr.rgb
+
+# Convert from jpg to bgra
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgra girl_704x472x472_bgra.rgb
 
 
 
