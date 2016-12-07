@@ -41,6 +41,17 @@ ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgr24 girl_704x472x472_bgr.rg
 # Convert from jpg to bgra
 ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgra girl_704x472x472_bgra.rgb
 
+# Convert from jpg to rgb565le
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt rgb565le girl_704x472x472_rgb565le.rgb
+
+# Convert from jpg to rgb565be
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt rgb565be girl_704x472x472_rgb565be.rgb
+
+# Convert from jpg to bgr565le
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgr565le girl_704x472x472_bgr565le.rgb
+
+# Convert from jpg to bgr565be
+ffmpeg -i girl_704x472x472.jpg -s 704x472 -pix_fmt bgr565be girl_704x472x472_bgr565be.rgb
 
 
 
