@@ -6,58 +6,58 @@ https://ffmpeg.org/ffmpeg.html
 ffmpeg -pix_fmts
 
 # Convert from jpg to grayscale
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt gray girl_706x472x706_gray.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt gray equirectangular_2001x1001_gray.yuv
 
 # Convert from jpg to yuv420p (I420)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt yuv420p girl_706x472x706_yuv420p.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt yuv420p equirectangular_2001x1001_yuv420p.yuv
 
 # Convert from jpg to yuv422p (YUV422)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt yuv422p girl_706x472x706_yuv422p.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt yuv422p equirectangular_2001x1001_yuv422p.yuv
 
 # Convert from jpg to yuv444p (YUV444)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt yuv444p girl_706x472x706_yuv444p.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt yuv444p equirectangular_2001x1001_yuv444p.yuv
 
 # Convert from jpg to yuyv422 (YUY2)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt yuyv422 girl_706x472x706_yuyv422.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt yuyv422 equirectangular_2001x1001_yuyv422.yuv
 
 # Convert from jpg to uyvy422 (UYVY)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt uyvy422 girl_706x472x706_uyvy422.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt uyvy422 equirectangular_2001x1001_uyvy422.yuv
 
 # Convert from jpg to nv12 (NV12)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt nv12 girl_706x472x706_nv12.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt nv12 equirectangular_2001x1001_nv12.yuv
 
 # Convert from jpg to nv21 (NV21)
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt nv21 girl_706x472x706_nv21.yuv
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt nv21 equirectangular_2001x1001_nv21.yuv
 
 # Convert from jpg to nv16 (NV16)
-#ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt nv16 girl_706x472x706_nv16.yuv
+#ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt nv16 equirectangular_2001x1001_nv16.yuv
 
 # Convert from jpg to rgba
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt rgba girl_706x472x706_rgba.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt rgba equirectangular_2001x1001_rgba.rgb
 
 # Convert from jpg to argb
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt argb girl_706x472x706_argb.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt argb equirectangular_2001x1001_argb.rgb
 
 # Convert from jpg to rgb24
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt rgb24 girl_706x472x706_rgb.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt rgb24 equirectangular_2001x1001_rgb.rgb
 
 # Convert from jpg to bgr
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt bgr24 girl_706x472x706_bgr.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt bgr24 equirectangular_2001x1001_bgr.rgb
 
 # Convert from jpg to bgra
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt bgra girl_706x472x706_bgra.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt bgra equirectangular_2001x1001_bgra.rgb
 
 # Convert from jpg to rgb565le
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt rgb565le girl_706x472x706_rgb565le.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt rgb565le equirectangular_2001x1001_rgb565le.rgb
 
 # Convert from jpg to rgb565be
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt rgb565be girl_706x472x706_rgb565be.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt rgb565be equirectangular_2001x1001_rgb565be.rgb
 
 # Convert from jpg to bgr565le
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt bgr565le girl_706x472x706_bgr565le.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt bgr565le equirectangular_2001x1001_bgr565le.rgb
 
 # Convert from jpg to bgr565be
-ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt bgr565be girl_706x472x706_bgr565be.rgb
+ffmpeg -i equirectangular_2001x1001.jpg -s 2001x1001 -pix_fmt bgr565be equirectangular_2001x1001_bgr565be.rgb
 
 
 
@@ -66,10 +66,10 @@ ffmpeg -i girl_706x472x706.jpg -s 706x472 -pix_fmt bgr565be girl_706x472x706_bgr
 
 
 # Convert from jpg to rgb
-#ffmpeg -i girl_706x472x706.jpg -pix_fmt rgb24 -f image2 girl_706x472x706.rgb24
+#ffmpeg -i equirectangular_2001x1001.jpg -pix_fmt rgb24 -f image2 equirectangular_2001x1001.rgb24
 
 # Convert from rgba to png
-#ffmpeg -s 706x472 -pix_fmt rgba -i girl_706x472x706.rgba -f image2 -pix_fmt rgb24 girl_706x472x706.png loglevel trace
+#ffmpeg -s 2001x1001 -pix_fmt rgba -i equirectangular_2001x1001.rgba -f image2 -pix_fmt rgb24 equirectangular_2001x1001.png loglevel trace
 
 # Convert from rgba to nv12
-#ffmpeg -s 706x472 -pix_fmt rgba -i girl_706x472x706.rgba -f image2 -pix_fmt nv12 girl_706x472x706.nv12
+#ffmpeg -s 2001x1001 -pix_fmt rgba -i equirectangular_2001x1001.rgba -f image2 -pix_fmt nv12 equirectangular_2001x1001.nv12
