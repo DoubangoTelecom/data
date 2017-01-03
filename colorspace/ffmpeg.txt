@@ -6,58 +6,58 @@ https://ffmpeg.org/ffmpeg.html
 ffmpeg -pix_fmts
 
 # Convert from jpg to grayscale
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt gray equirectangular_1282x721_gray.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt gray equirectangular_1282x720_gray.yuv
 
 # Convert from jpg to yuv420p (I420)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt yuv420p equirectangular_1282x721_yuv420p.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt yuv420p equirectangular_1282x720_yuv420p.yuv
 
 # Convert from jpg to yuv422p (YUV422)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt yuv422p equirectangular_1282x721_yuv422p.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt yuv422p equirectangular_1282x720_yuv422p.yuv
 
 # Convert from jpg to yuv444p (YUV444)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt yuv444p equirectangular_1282x721_yuv444p.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt yuv444p equirectangular_1282x720_yuv444p.yuv
 
 # Convert from jpg to yuyv422 (YUY2)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt yuyv422 equirectangular_1282x721_yuyv422.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt yuyv422 equirectangular_1282x720_yuyv422.yuv
 
 # Convert from jpg to uyvy422 (UYVY)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt uyvy422 equirectangular_1282x721_uyvy422.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt uyvy422 equirectangular_1282x720_uyvy422.yuv
 
 # Convert from jpg to nv12 (NV12)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt nv12 equirectangular_1282x721_nv12.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt nv12 equirectangular_1282x720_nv12.yuv
 
 # Convert from jpg to nv21 (NV21)
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt nv21 equirectangular_1282x721_nv21.yuv
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt nv21 equirectangular_1282x720_nv21.yuv
 
 # Convert from jpg to nv16 (NV16)
-#ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt nv16 equirectangular_1282x721_nv16.yuv
+#ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt nv16 equirectangular_1282x720_nv16.yuv
 
 # Convert from jpg to rgba
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt rgba equirectangular_1282x721_rgba.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt rgba equirectangular_1282x720_rgba.rgb
 
 # Convert from jpg to argb
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt argb equirectangular_1282x721_argb.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt argb equirectangular_1282x720_argb.rgb
 
 # Convert from jpg to rgb24
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt rgb24 equirectangular_1282x721_rgb.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt rgb24 equirectangular_1282x720_rgb.rgb
 
 # Convert from jpg to bgr
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt bgr24 equirectangular_1282x721_bgr.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt bgr24 equirectangular_1282x720_bgr.rgb
 
 # Convert from jpg to bgra
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt bgra equirectangular_1282x721_bgra.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt bgra equirectangular_1282x720_bgra.rgb
 
 # Convert from jpg to rgb565le
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt rgb565le equirectangular_1282x721_rgb565le.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt rgb565le equirectangular_1282x720_rgb565le.rgb
 
 # Convert from jpg to rgb565be
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt rgb565be equirectangular_1282x721_rgb565be.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt rgb565be equirectangular_1282x720_rgb565be.rgb
 
 # Convert from jpg to bgr565le
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt bgr565le equirectangular_1282x721_bgr565le.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt bgr565le equirectangular_1282x720_bgr565le.rgb
 
 # Convert from jpg to bgr565be
-ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt bgr565be equirectangular_1282x721_bgr565be.rgb
+ffmpeg -i equirectangular_1282x720.jpg -s 1282x720 -pix_fmt bgr565be equirectangular_1282x720_bgr565be.rgb
 
 
 
@@ -69,10 +69,10 @@ ffmpeg -i equirectangular_1282x721.jpg -s 1282x721 -pix_fmt bgr565be equirectang
 
 
 # Convert from jpg to rgb
-#ffmpeg -i equirectangular_1282x721.jpg -pix_fmt rgb24 -f image2 equirectangular_1282x721.rgb24
+#ffmpeg -i equirectangular_1282x720.jpg -pix_fmt rgb24 -f image2 equirectangular_1282x720.rgb24
 
 # Convert from rgba to png
-#ffmpeg -s 1282x721 -pix_fmt rgba -i equirectangular_1282x721.rgba -f image2 -pix_fmt rgb24 equirectangular_1282x721.png loglevel trace
+#ffmpeg -s 1282x720 -pix_fmt rgba -i equirectangular_1282x720.rgba -f image2 -pix_fmt rgb24 equirectangular_1282x720.png loglevel trace
 
 # Convert from rgba to nv12
-#ffmpeg -s 1282x721 -pix_fmt rgba -i equirectangular_1282x721.rgba -f image2 -pix_fmt nv12 equirectangular_1282x721.nv12
+#ffmpeg -s 1282x720 -pix_fmt rgba -i equirectangular_1282x720.rgba -f image2 -pix_fmt nv12 equirectangular_1282x720.nv12
