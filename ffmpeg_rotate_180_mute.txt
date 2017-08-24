@@ -1,0 +1,1 @@
+ffmpeg -i in.mp4 -vf transpose=2,transpose=1 -metadata:s:v:0 rotate=180 -an out.mp4
