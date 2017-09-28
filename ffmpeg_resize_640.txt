@@ -1,0 +1,1 @@
+ffmpeg -i in.mp4 -vf scale=640:-2 out.mp4
